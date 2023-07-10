@@ -6,7 +6,7 @@ except ValueError as err:
     print(err)
     exit()
 
-def is_power_of_two(n:int)->int:
+def is_power_of_two(n:int)->bool:
     if log2(n).is_integer():
         return True
     return False
